@@ -62,8 +62,8 @@ const App = () => {
       setCurrentNumber('0')
       setOperation('/')
     } else {
-      const mul = Number(firstNumber) / Number(currentNumber)
-      setCurrentNumber(String(mul))
+      const divisor = Number(firstNumber) / Number(currentNumber)
+      setCurrentNumber(String(divisor))
       setOperation('')
     }
   }
